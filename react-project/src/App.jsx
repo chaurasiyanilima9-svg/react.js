@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './Components/Counter';
 import StateComp from './Components/StateComp'
 import PropComp from './Components/PropComp';
 import StateToggle from './Components/StateToggle';
@@ -15,9 +16,8 @@ function App() {
       <StateToggle/>
       <ResetCopm/>
       <ToggleBtnComp/>
-     
       <ResetCopm start={10} />
-
+      <Counter/>
 
 
       <div className="container text-center mt-5">
